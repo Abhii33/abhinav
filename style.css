@@ -1,0 +1,76 @@
+
+body {
+  overflow: hidden;
+  background-color:aliceblue;
+}   
+
+.backgound {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.name {
+  position: relative;
+  color: black;
+  right: -10%;
+}
+.skills{
+    position:relative;
+    color: black;
+    right: -90%;
+}
+
+.profile {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0px, 100px);
+}
+
+.container {
+  display: flex;
+  gap: 80px;
+  transform: translate(35%, 120px);
+  cursor: pointer;
+  animation: load 2s 0s;
+  }
+.pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 30%;
+}
+
+.ln:hover {
+  height: 60px;
+  background-color: ;
+  width: auto;
+
+}
+
+.insta:hover {
+  height: 60px;
+  width: auto;
+
+
+}.twt:hover {
+  height: 60px;
+  width: auto;
+
+}.git:hover {
+  height: 60px;
+  width: auto;
+
+}
